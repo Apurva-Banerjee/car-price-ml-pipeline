@@ -1,4 +1,4 @@
-# 🚗 Car Price Prediction — ML Pipeline
+# Car Price Prediction — ML Pipeline
 
 > **`pipeline.py`** · CarDekho Dataset · Random Forest Regression · scikit-learn
 
@@ -96,7 +96,7 @@ The pipeline is split into **9 clearly separated, independently callable stages*
 4. **Standard-scale** all numeric columns — zero mean, unit variance
 5. **Train / test split** — 80% training (12,328 rows) / 20% testing (3,083 rows), `random_state=42`
 
-> ⚠️ The `ColumnTransformer` is **fit only on training data** — `transform()` is called separately for the test set to prevent data leakage.
+>  The `ColumnTransformer` is **fit only on training data** — `transform()` is called separately for the test set to prevent data leakage.
 
 ---
 
