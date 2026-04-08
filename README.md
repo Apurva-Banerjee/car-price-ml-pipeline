@@ -179,7 +179,7 @@ predictions = predict(
 
 ## 5. Installation
 
-**Requirements:** Python 3.8+
+**Requirements:** Python 3.12
 
 ```bash
 pip install pandas numpy scikit-learn
@@ -230,13 +230,13 @@ Sample terminal output from a full tuning run:
 
 ```
 2026-04-08 14:01:40  INFO   Baseline summary (sorted by Test R²):
-                                   mae           rmse        r2
-Random Forest Regressor  101860.84  229578.29  0.9300
-K-Neighbors Regressor    112934.07  257765.16  0.9117
-Decision Tree            125447.66  310177.80  0.8722
-Ridge                    279557.45  502534.47  0.6645
-Lasso                    279614.76  502542.74  0.6645
-Linear Regression        279618.58  502543.59  0.6645
+                                                   mae           rmse           r2
+Random Forest Regressor    101860.84     229578.29  0.9300
+K-Neighbors Regressor        112934.07     257765.16  0.9117
+Decision Tree                        125447.66     310177.80  0.8722
+Ridge                                    279557.45     502534.47  0.6645
+Lasso                                    279614.76     502542.74  0.6645
+Linear Regression                 279618.58    502543.59  0.6645
 
 2026-04-08 14:03:13  INFO   ── Random Forest Regressor (tuned) ──
 2026-04-08 14:03:13  INFO   [TRAIN]  MAE=39315.69  RMSE=120600.93  R²=0.9821
